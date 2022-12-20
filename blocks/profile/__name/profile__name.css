@@ -1,0 +1,9 @@
+.profile__name {
+  min-width: 189px;
+  color: #fff;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 1.22;
+  margin: 0 10px 0 0;
+}
