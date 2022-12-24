@@ -12,26 +12,64 @@
       <img class="header__logo" src="./images/logo.svg" alt="Логотип проекта Mesto"></img>
     </header>
     <main class="main">
-      <section class="profile">
+      <section class="profile main__profile">
         <img class="profile__avatar" src="./images/profile__avatar.jpg" alt="Фото профиля">
         <div class="profile__info">
-            <p class="profile__name">Жак-Ив Кусто</p>
-            <button class="profile__edit-button" type="button"></button>
+          <p class="profile__name">Жак-Ив Кусто</p>
+          <button class="profile__edit-button" type="button"></button>
+          <p class="profile__description">Исследователь океана</p>
         </div>
-        <p class="profile__description">Исследователь океана</p>
         <button class="profile__add-button" type="button"></button>
       </section>
       <section class="places">
         <ul class="places__list-item">
           <li class="places__card">
-            <img class="places__foto" src="" alt=""></img>
-            <div>
-              <p class="places__title"></p>
-              <input class="places__icone" type="image" src="./images/places__icone.png"></input>
+            <img class="places__foto" src="./images/places__foto-karachaevsk.jpg" alt="Храм на фоне гор с деревьями на переднем плане"></img>
+            <div class="places__card-bottom">
+              <p class="places__title">Карачаевск</p>
+              <button class="places__icone" type="button"></button>
+            </div>
+          </li>
+          <li class="places__card">
+            <img class="places__foto" src="./images/places__foto-elbrus.jpg" alt="На фоне оранжевого неба, в далике виднеется гора Эльбрус"></img>
+            <div class="places__card-bottom">
+              <p class="places__title">Эльбрус</p>
+              <button class="places__icone" type="button"></button>
+            </div>
+          </li>
+          <li class="places__card">
+            <img class="places__foto" src="./images/places__foto-tarhovka.jpg" alt="Хвойный лес, через макушки елей пробиваются лучи солнца"></img>
+            <div class="places__card-bottom">
+              <p class="places__title">Тарховка</p>
+              <button class="places__icone" type="button"></button>
+            </div>
+          </li>
+          <li class="places__card">
+            <img class="places__foto" src="./images/places__foto-sochi.jpg" alt="Морские волны на закате"></img>
+            <div class="places__card-bottom">
+              <p class="places__title">Сочи</p>
+              <button class="places__icone" type="button"></button>
+            </div>
+          </li>
+          <li class="places__card">
+            <img class="places__foto" src="./images/places__foto-karelia.jpg" alt="Мраморные откосы Карельского каньёна, на переднем плане камни, над горой виднеются ели"></img>
+            <div class="places__card-bottom">
+              <p class="places__title">Карелия</p>
+              <button class="places__icone" type="button"></button>
+            </div>
+          </li>
+          <li class="places__card">
+            <img class="places__foto" src="./images/places__foto-dombai.jpg" alt="На первом плане верхушки деревьев, вдалике гора Домбай"></img>
+            <div class="places__card-bottom">
+              <p class="places__title">Домбай</p>
+              <button class="places__icone" type="button"></button>
             </div>
           </li>
         </ul>
       </section>
     </main>
+    <footer class="footer page__footer">
+      <p class="footer__copyright">&copy 2020 Mesto Russia</p>
+    </footer>
   </div>
 </body>

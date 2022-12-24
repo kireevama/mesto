@@ -4,9 +4,12 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrapper/page__wrapper.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__footer/page__footer.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/main/__profile/main__profile.css);
 
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
@@ -15,3 +18,14 @@
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__name/profile__name.css);
 @import url(../blocks/profile/__add-button/profile__add-button.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__card/places__card.css);
+@import url(../blocks/places/__card-bottom/places__card-bottom.css);
+@import url(../blocks/places/__foto/places__foto.css);
+@import url(../blocks/places/__icone/places__icone.css);
+@import url(../blocks/places/__list-item/places__list-item.css);
+@import url(../blocks/places/__title/places__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

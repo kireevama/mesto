@@ -1,0 +1,6 @@
+.places__list-item {
+  display: grid;
+  row-gap: 20px;
+  padding: 0;
+  margin: 0;
+}

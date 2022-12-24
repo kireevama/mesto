@@ -1,9 +1,12 @@
 .profile__description {
-  max-width: 282px;
   color: #fff;
-  font-family: 'Inter',  'Arial', 'Helvetica', sans-serif;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.21;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin: 0;
+  justify-self: center;
 }
