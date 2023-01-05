@@ -1,0 +1,17 @@
+.popup__description {
+    width: 238px;
+    height: 27px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #000;
+    padding: 0;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    margin: 30px 0 0;
+  }

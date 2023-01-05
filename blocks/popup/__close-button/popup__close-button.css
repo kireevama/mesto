@@ -1,0 +1,16 @@
+.popup__close-button {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../images/popup__close-button.png);
+  border: 0;
+  padding: 0;
+  margin-top: -36px;
+  margin-right: -262px;
+  background-color: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.popup__close-button:hover {
+  opacity: 0.6;
+}

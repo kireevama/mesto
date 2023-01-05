@@ -15,7 +15,7 @@
       <section class="profile main__profile">
         <img class="profile__avatar" src="./images/profile__avatar.jpg" alt="Фото профиля">
         <div class="profile__info">
-          <p class="profile__name">Жак-Ив Кусто</p>
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button class="profile__edit-button" type="button"></button>
           <p class="profile__description">Исследователь океана</p>
         </div>
@@ -26,43 +26,49 @@
           <li class="places__card">
             <img class="places__foto" src="./images/places__foto-karachaevsk.jpg" alt="Храм на фоне гор с деревьями на переднем плане"></img>
             <div class="places__card-bottom">
-              <p class="places__title">Карачаевск</p>
-              <button class="places__icone" type="button"></button>
+              <h2 class="places__title">Карачаевск</h2>
+              <button class="places__like-button" type="button">
+              </button>
             </div>
           </li>
           <li class="places__card">
             <img class="places__foto" src="./images/places__foto-elbrus.jpg" alt="На фоне оранжевого неба, в далике виднеется гора Эльбрус"></img>
             <div class="places__card-bottom">
-              <p class="places__title">Эльбрус</p>
-              <button class="places__icone" type="button"></button>
+              <h2 class="places__title">Эльбрус</h2>
+              <button class="places__like-button" type="button">
+              </button>
             </div>
           </li>
           <li class="places__card">
             <img class="places__foto" src="./images/places__foto-tarhovka.jpg" alt="Хвойный лес, через макушки елей пробиваются лучи солнца"></img>
             <div class="places__card-bottom">
-              <p class="places__title">Тарховка</p>
-              <button class="places__icone" type="button"></button>
+              <h2 class="places__title">Тарховка</h2>
+              <button class="places__like-button" type="button">
+              </button>
             </div>
           </li>
           <li class="places__card">
             <img class="places__foto" src="./images/places__foto-sochi.jpg" alt="Морские волны на закате"></img>
             <div class="places__card-bottom">
-              <p class="places__title">Сочи</p>
-              <button class="places__icone" type="button"></button>
+              <h2 class="places__title">Сочи</h2>
+              <button class="places__like-button" type="button">
+              </button>
             </div>
           </li>
           <li class="places__card">
             <img class="places__foto" src="./images/places__foto-karelia.jpg" alt="Мраморные откосы Карельского каньёна, на переднем плане камни, над горой виднеются ели"></img>
             <div class="places__card-bottom">
-              <p class="places__title">Карелия</p>
-              <button class="places__icone" type="button"></button>
+              <h2 class="places__title">Карелия</h2>
+              <button class="places__like-button" type="button">
+              </button>
             </div>
           </li>
           <li class="places__card">
             <img class="places__foto" src="./images/places__foto-dombai.jpg" alt="На первом плане верхушки деревьев, вдалике гора Домбай"></img>
             <div class="places__card-bottom">
-              <p class="places__title">Домбай</p>
-              <button class="places__icone" type="button"></button>
+              <h2 class="places__title">Домбай</h2>
+              <button class="places__like-button" type="button">
+              </button>
             </div>
           </li>
         </ul>
@@ -71,5 +77,15 @@
     <footer class="footer page__footer">
       <p class="footer__copyright">&copy 2020 Mesto Russia</p>
     </footer>
+    <div class="popup">
+      <form class="popup__container">
+        <button class="popup__close-button" type="button"></button>
+        <h2 class="popup__heading">Редактировать профиль</h2>
+        <input class="popup__name" type="text">
+        <input class="popup__description" type="text">
+        <button class="popup__save-button" type="button">Сохранить</button>
+      </form>
+    </div>
   </div>
+  <script src="./scripts/script.js"></script>
 </body>
