@@ -3,5 +3,12 @@
   min-height: 56px;
   display: flex;
   justify-content: start;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid rgb(84, 84, 84, 0.7);
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    min-width: 880px;
+    min-height: 74px;
+  }
 }

@@ -1,3 +1,9 @@
 .page__header {
   margin: 28px 0 38.25px;
 }
+
+@media screen and (min-width: 1280px) {
+  .page__header {
+    margin: 45px 0 36.25px;
+  }
+}
