@@ -4,11 +4,22 @@
   justify-items: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .profile {
-    max-width: 880px;
-    grid-template-columns: 168.75px 1fr 150px;
+    max-width: 581px;
+    grid-template-columns: 120px 1fr 150px;
     align-items: center;
     justify-items: start;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .profile {
+    max-width: 880px;
+    grid-template-columns: 120px 1fr 150px;
+    align-items: center;
+    justify-items: start;
+    column-gap: 30px;
   }
 }

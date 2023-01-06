@@ -18,7 +18,7 @@
   opacity: 0.6;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .profile__add-button {
     background-image: url(../../../images/profile__add-button-1280.png);
     width: 150px;

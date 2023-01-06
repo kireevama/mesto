@@ -2,3 +2,15 @@
   max-width: 282px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+  .profile__add-button {
+    max-width: 581px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__add-button {
+    max-width: 880px;
+  }
+}
