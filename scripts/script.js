@@ -1,11 +1,18 @@
-const peprofileEditButton = document.querySelector('.profile__edit-button');
 const popup = document.querySelector('.popup');
+const formElement = document.querySelector('.popup__container');
+const nameInput = document.querySelector('.popup__name');
+const descriptionInput = document.querySelector('.popup__description');
+const peprofileEditButton = document.querySelector('.profile__edit-button');
 const popupCloseButton = document.querySelector('.popup__close-button');
-const popupContainer = document.querySelector('.popup__container');
+
+const profileName = document.querySelector('.profile__name');
+const profileDescription = document.querySelector('.profile__description');
 
 peprofileEditButton.addEventListener('click', openPopup);
 function openPopup() {
   popup.classList.add('popup_opened');
+  nameInput.value = profileName.textContent;
+  descriptionInput.value = profileDescription.textContent;
 }
 
 popupCloseButton.addEventListener('click', closePopup);
@@ -19,34 +26,18 @@ popup.addEventListener('click', function(event) {
   }
 }
 )
-popupContainer.addEventListener('click', function(event) {
+formElement.addEventListener('click', function(event) {
   event.preventDefault();
 }
 )
 
-const placesLikeButton = document.querySelector('places__like-button');
-placesLikeButton.addEventListener('click', likeButton);
-function likeButton() {
-  places__like-button.classList.add('places__like-button_active');
-}
-
-const formElement = document.querySelector('popup__container');
-const nameInput = document.querySelector('popup__name');
-const jobInput = document.querySelector('popup__description');
-
 function handleFormSubmit (evt) {
   evt.preventDefault();
   
-   // Получите значение полей jobInput и nameInput из свойства value
-   nameInput = nameInput.value;
-   jobInput = jobInput.value;
-  // Выберите элементы, куда должны быть вставлены значения полей
-  const profileName = document.querySelector('.profile__name');
-  const profileDescription = document.querySelector('.profile__description');
+  profileName.textContent = nameInput.value;
+  profileDescription.textContent = descriptionInput.value;
+  popup.classList.remove('popup_opened');
+};
 
-  // Вставьте новые значения с помощью textContent
-  profileName.textContent = nameInput;
-  profileDescription.textContent = jobInput;
-}
-
-formElement.addEventListener('submit', handleFormSubmit);
+const saveButton = document.querySelector('.popup__save-button');
+saveButton.addEventListener('click', handleFormSubmit);

@@ -13,3 +13,10 @@
   border-radius: 10px;
   z-index: 1;
 }
+
+@media screen and (min-width: 768px) {
+  .popup__container {
+    width: 430px;
+    height: 330px;
+  }
+}

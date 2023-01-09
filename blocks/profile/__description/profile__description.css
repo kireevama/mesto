@@ -1,4 +1,6 @@
 .profile__description {
+  display: inline-block;
+  max-width: 282px;
   color: #fff;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
@@ -9,12 +11,20 @@
   overflow: hidden;
   margin: 0;
   justify-self: center;
+  grid-area: profile-description;
 }
 
 @media screen and (min-width: 768px) {
   .profile__description {
+    max-width: 205px;
     font-size: 18px;
     line-height: 1.22;
     justify-self: start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__description {
+    max-width: 336px;
   }
 }

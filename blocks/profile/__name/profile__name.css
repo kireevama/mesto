@@ -1,5 +1,6 @@
 .profile__name {
-  display: inline;
+  display: inline-block;
+  max-width: 189px;
   color: #fff;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-weight: 500;
@@ -10,10 +11,13 @@
   overflow: hidden;
   justify-self: center;
   margin: 0;
+  grid-area: profile-name;
 }
 
 @media screen and (min-width: 768px) {
   .profile__name {
+    justify-self: start;
+    max-width: 205px;
     font-size: 30px;
     line-height: 1.14;
   }
@@ -21,7 +25,7 @@
 
 @media screen and (min-width: 1024px) {
   .profile__name {
+    max-width: 294px;
     font-size: 42px;
-    line-height: 1.14;
   }
 }

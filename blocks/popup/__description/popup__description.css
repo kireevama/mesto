@@ -15,3 +15,9 @@
     border-color: rgba(0, 0, 0, 0.2);
     margin: 30px 0 0;
   }
+
+  @media screen and (min-width: 768px) {
+    .popup__description {
+      width: 354px;
+    }
+  }

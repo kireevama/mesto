@@ -1,5 +1,5 @@
 .header {
-  max-width: 320px;
+  min-width: 320px;
   min-height: 56px;
   display: flex;
   justify-content: start;
@@ -8,14 +8,14 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    max-width: 581px;
+    min-width: 581px;
     min-height: 70px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
-    max-width: 880px;
+    min-width: 880px;
     min-height: 74px;
   }
 }
