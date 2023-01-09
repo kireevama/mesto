@@ -8,6 +8,8 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
   transition: opacity .5s;
   grid-area: profile-button;
 }

@@ -11,6 +11,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.21;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
   transition: opacity .5s;
   padding: 0;
   margin: 45px 0 25px;
