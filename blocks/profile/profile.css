@@ -9,7 +9,6 @@
   .profile {
     max-width: 581px;
     grid-template-columns: 120px 1fr 150px;
-    align-items: center;
     justify-items: start;
     column-gap: 20px;
   }

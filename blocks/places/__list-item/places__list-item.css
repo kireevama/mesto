@@ -19,7 +19,5 @@
   .places__list-item {
     grid-template-columns: repeat(3, 282px);
     grid-template-rows: repeat(2, 361px);
-    gap: 17px 20px;
-    justify-content: center;
   }
 }
