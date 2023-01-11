@@ -1,8 +1,7 @@
 .places__card-bottom {
   display: grid;
   grid-template-columns: 1fr 22px;
-  max-width: 246px;
-  padding: 25px 15px 31px 21px;
+  padding: 0 15px 0 21px;
   background-color: #fff;
   align-items: center;
   border-bottom-right-radius: 10px;

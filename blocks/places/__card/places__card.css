@@ -1,4 +1,6 @@
 .places__card {
   list-style-type: none;
-  display: block;
+  display: grid;
+  grid-template-columns: 282px;
+  grid-template-rows: 282px 79px;
 }

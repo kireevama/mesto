@@ -1,6 +1,5 @@
 .popup__name {
     width: 238px;
-    height: 27px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
