@@ -26,5 +26,8 @@
   .popup__save-button {
     width: 358px;
     height: 50px;
+    font-size: 18px;
+    line-height: 1.22;
+    margin: 50px 0 38px;
   }
 }

@@ -8,15 +8,15 @@
     font-size: 14px;
     line-height: 1.21;
     color: #000;
-    padding: 0;
     border-style: none none solid none;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.2);
     margin: 30px 0 0;
+    padding: 0 0 10px;
   }
 
   @media screen and (min-width: 768px) {
     .popup__description {
-      width: 354px;
+      width: 358px;
     }
   }

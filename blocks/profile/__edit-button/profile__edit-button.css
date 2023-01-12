@@ -7,13 +7,15 @@
   background-repeat: no-repeat;
   background-color: transparent;
   border: 1px solid #fff;
+  aspect-ratio: 1 / 1;
   padding: 0;
   cursor: pointer;
   -webkit-transition: opacity .5s;
   -moz-transition: opacity .5s;
   transition: opacity .5s;
-  grid-area: profile-button;
-  transform: translateX(10px);
+  position: absolute;
+  top: 8px;
+  right: 19px;
 }
 
 .profile__edit-button:hover {
@@ -25,6 +27,7 @@
     width: 24px;
     height: 24px;
     background-size: 10px;
-    transform: translateX(0);
+    top: 18px;
+    right: -42px;
   }
 }

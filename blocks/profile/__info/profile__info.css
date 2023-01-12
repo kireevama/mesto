@@ -1,18 +1,14 @@
 .profile__info {
-  display: grid;
-  grid-template-columns: 1fr 18px;
-  grid-template-rows: repeat(2, auto);
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  row-gap: 14px;
-  grid-template-areas: 
-  "profile-name profile-button"
-  "profile-description profile-description";
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
   .profile__info {
-    grid-template-columns: 1fr 24px;
-    column-gap: 18px;
-    row-gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

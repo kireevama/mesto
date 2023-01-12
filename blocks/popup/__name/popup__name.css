@@ -11,12 +11,12 @@
     border-style: none none solid none;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.2);
-    padding: 0;
+    padding: 0 0 10px;
     margin: 0;
   }
 
   @media screen and (min-width: 768px) {
     .popup__name {
-      width: 354px;
+      width: 358px;
     }
   }
