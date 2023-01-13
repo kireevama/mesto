@@ -4,7 +4,7 @@ const nameInput = document.querySelector('.form__item_el_name');
 const descriptionInput = document.querySelector('.form__item_el_description');
 const profileEditButton = document.querySelector('.profile__edit-button');
 const popupCloseButton = document.querySelector('.popup__close-button');
-const popupEditForm = document.querySelector('.form__edit-profile');
+const popupEditForm = document.querySelector('.form');
 
 const profileName = document.querySelector('.profile__name');
 const profileDescription = document.querySelector('.profile__description');
