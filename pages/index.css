@@ -48,6 +48,6 @@
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__heading/form__heading.css);
-@import url(../blocks/form/__item_el_description/form__item_el_description.css);
-@import url(../blocks/form/__item_el_name/popup__name.css);
 @import url(../blocks/form/__save-button/form__save-button.css);
+@import url(../blocks/form/__item/_el_name/popup__name.css);
+@import url(../blocks/form/__item/_el_description/form__item_el_description.css);
